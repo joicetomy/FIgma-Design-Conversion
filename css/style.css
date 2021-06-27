@@ -34,6 +34,48 @@
 }
 
 
+.product-list-heading{
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 120.5%;
+    color: #151442;
+}
+.product-list-buttons{
+    border: 1px solid #102421;
+    box-sizing: border-box;
+    border-radius: 31px;
+    min-width: 160px;
+}
+.product-list-title{
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 149.5%;
+    color: #151442;
+}
+.product-list-price{
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 149.5%;
+    color: #8F9095;
+}
+.product-listing-desc{
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149.5%;
+    text-align: center;
+    color: #8F9095;
+}
+
+
+
 @media (max-width: 576px) { 
     .bg-color{
         height: 100%;
