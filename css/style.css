@@ -1,0 +1,50 @@
+.bg-color{
+    height: 100%;
+    background: linear-gradient(90deg, #102421 60%, #E5E5E5 50%);
+}
+.mainsection-heading{
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120.5%;
+    letter-spacing: 0.5em;
+    color: #D2D2D2;
+}
+.mainsection-sub{
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 88px;
+    line-height: 120.5%;
+    color: #FFFFFF;
+}
+.mainsection-desc{
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 120.5%;
+    color: #D2D2D2;
+}
+.mainsection-buttons{
+    background: #C7E1BF;
+    border-radius: 48px;
+    min-width: 160px;
+}
+
+
+@media (max-width: 576px) { 
+    .bg-color{
+        height: 100%;
+        background: #102421;
+    }
+    .text-dark{
+        color:#f8f9fa !important;
+    }
+}
+@media (min-width: 1214px) { 
+    .mainsection{
+        height: 1050px;
+    }
+}
