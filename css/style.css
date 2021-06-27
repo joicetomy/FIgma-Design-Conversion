@@ -73,6 +73,25 @@
     text-align: center;
     color: #8F9095;
 }
+/*Benefits Section styles */
+.benefits-heading{
+font-family: Sailec;
+font-style: normal;
+font-weight: 500;
+font-size: 80px;
+line-height: 120.5%;
+color: #151442;
+}
+.benefits-desc{
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 149.5%;
+    text-align: center;
+    color: #151442;
+    }
+/*Benefits section styles ends here*/
 
 /*Footer Styles */
 .footer{
