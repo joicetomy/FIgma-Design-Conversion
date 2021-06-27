@@ -74,6 +74,43 @@
     color: #8F9095;
 }
 
+/*Footer Styles */
+.footer{
+    background: #0F2421;
+}
+.footer-content{
+    font-family: Sailec;
+font-style: normal;
+font-weight: 500;
+font-size: 88px;
+line-height: 117%;
+color: #FFFFFF;
+}
+.footer-copyright{
+font-family: Sailec;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 282.5%;
+color: #FFFFFF;
+}
+.footer-list{
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 282.5%;
+    color: #FFFFFF;
+}
+.footer-list-heading{
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 282.5%;
+    color: #FFFFFF;
+}
+/*Footer Styles ends here */
 
 
 @media (max-width: 576px) { 
