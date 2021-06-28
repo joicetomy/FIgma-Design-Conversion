@@ -73,6 +73,49 @@
     text-align: center;
     color: #8F9095;
 }
+/*client reviews */
+.client-reviews{
+    background-repeat: no-repeat;
+}
+.client-reviews-heading{
+    font-family: Sailec;
+font-style: normal;
+font-weight: 500;
+font-size: 80px;
+line-height: 120.5%;
+color: #FFFFFF;
+}
+.client-reviews-a{
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 168%;
+    text-align: center;
+    color: #FFFFFF !important;
+    text-decoration: underline !important;     
+}
+.client-reviews-msg{
+    font-family: Sailec;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 150%;
+    color: #342B42;
+    background: #FFF3F3;
+}
+
+/*products-section styles*/
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+}
+    .card {
+      display: inline-block;
+    }
+
 /*Benefits Section styles */
 .benefits-heading{
 font-family: Sailec;
@@ -132,7 +175,7 @@ color: #FFFFFF;
 /*Footer Styles ends here */
 
 
-@media (max-width: 576px) { 
+@media (max-width: 991px) { 
     .bg-color{
         height: 100%;
         background: #102421;
@@ -145,4 +188,8 @@ color: #FFFFFF;
     .mainsection{
         height: 1050px;
     }
+}
+::-webkit-scrollbar {
+    width: 1;  /* Remove scrollbar space */
+    
 }
